@@ -10,9 +10,9 @@ WebRTC目前支持的平台是Windows，Mac OS X，Linux，Android和iOS平台�
 ## 开始之前的准备
 - - -
 
-Google的chromium项目是用gclient来管理源码的checkout, update等。 gclient是google专门为这种多源项目编写的脚本，它可以将多个源码管理系统中的代码放在一起管理。甚至包括将Git和svn代码放在一起。
+  * Google的chromium项目是用gclient来管理源码的checkout, update等。 gclient是google专门为这种多源项目编写的脚本，它可以将多个源码管理系统中的代码放在一起管理。甚至包括将Git和svn代码放在一起。
 
-[Google工具安装](https://webrtc.org/native-code/development/prerequisite-sw/)
+  * [Google工具安装](https://webrtc.org/native-code/development/prerequisite-sw/)
 
 ## 获取代码
 - - -
@@ -37,9 +37,13 @@ git checkout master
 git new-branch your-branch-name
 ```
 
-##### Mac编译
+
+> 附录
+##### Mac编译，生成编译的文件系统
 ```
 gn gen out/Debug-mac
+ninja -C out/Debug-mac
 ```
+
 
 

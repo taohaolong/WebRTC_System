@@ -6,7 +6,6 @@
 - - -
 
 ### 一、基本思想
-
 #### 1. 音视频的传输原则
 
 **经过大量在实际网络环境测试，得出以下结论：**
@@ -52,6 +51,11 @@
 | 码率控值|   [webrtc/modules/bitrate_controller]() |
 | 拥塞控制 |[webrtc/modules/congestion_controller]()|
 | REMB |[webrtc/modules/remote_bitrate_estimator]()|
+
+
+
+> 想做一个简单地WebRTC_DEMO 
+
 
 
 
